@@ -22,6 +22,6 @@ class Greeting extends React.Component {
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-ReactWebComponent.create(<Greeting name="Mars"></Greeting>, 'web-greeting');
+ReactWebComponent.create(<Greeting name="Mars"></Greeting>, 'web-greeting', false);
 
 

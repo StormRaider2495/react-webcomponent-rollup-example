@@ -31,4 +31,4 @@ class MyCounter extends React.Component {
   }
 }
 
-ReactWebComponent.create(<MyCounter/>, 'my-counter');
+ReactWebComponent.create(<MyCounter/>, 'my-counter', false);
